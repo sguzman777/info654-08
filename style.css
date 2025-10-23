@@ -1,0 +1,399 @@
+#myhdr {
+  width: 100%;
+  text-align: center;
+  border-radius: 4px;
+  background: rgb(224, 195, 175);
+  color: rgb(85, 101, 222);
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+nav.crumbs {
+  text-align: center;
+}
+
+nav.crumbs ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-flex;
+  gap: 100px;
+}
+
+nav.crumbs .crumb a {
+  text-decoration: none;
+  padding: 20px;
+  color: rgb(224, 195, 175);
+  font-weight: bolder;
+  font-family: Arial, sans-serif;
+}
+
+nav.crumbs .crumb a:hover {
+  background-color: rgb(224, 195, 175);
+  width: 100%;
+  color: rgb(85, 101, 222);
+}
+
+p {
+  color: rgb(85, 101, 222)
+}
+
+.p2 {
+  color: rgb(85, 101, 222)
+}
+
+.p3 {
+  color: rgb(85, 101, 222)
+}
+
+.p4 {
+  color: rgb(85, 101, 222)
+}
+
+.p5 {
+  color: rgb(85, 101, 222)
+}
+
+h2 {
+  color: rgb(224, 195, 175)
+}
+
+h3 {
+  color: rgb(224, 195, 175)
+}
+
+h4 {
+  color: rgb(224, 195, 175)
+}
+
+h5 {
+  color: rgb(224, 195, 175)
+}
+
+body {
+  background-color: rgb(85, 101, 222);
+  color: rgb(224, 195, 175);
+}
+
+p,
+.p2,
+.p3,
+.p4,
+.p4 {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  text-indent: 20px;
+  border: 4px solid rgb(224, 195, 175);
+  border-radius: 40px;
+  padding: 100px;
+  background-color: #fffaf5;
+  font-family: 'Caveat', cursive;
+  position: relative;
+  max-width: 1000px;
+}
+
+.p5,
+.p6 {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  text-indent: 20px;
+  border: 4px solid rgb(224, 195, 175);
+  border-radius: 40px;
+  padding: 100px;
+  background-color: #fffaf5;
+  font-family: 'Caveat', cursive;
+  position: relative;
+  max-width: 1000px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Fredericka the Great', cursive;
+  font-weight: lighter;
+  margin-top: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bolder;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 2.0em;
+  font-family: arial, Helvetica, sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bolder;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 2.0em;
+  font-family: arial, Helvetica, sans-serif;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bolder;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 40px;
+  font-size: 2.0em;
+  font-family: arial, Helvetica, sans-serif;
+}
+
+h5 {
+  text-align: center;
+  font-weight: bolder;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 2.0em;
+  font-family: arial, Helvetica, sans-serif;
+}
+
+h6 {
+  text-align: center;
+  font-weight: bolder;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 10px;
+  font-size: 2.0em;
+  font-family: arial, Helvetica, sans-serif;
+}
+
+table {
+  width: 100%;
+  border: 4px solid #FFBD32;
+  border-collapse: collapse;
+  background-color: #fffaf5;
+  margin: 0 auto;
+}
+
+th {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 30px;
+  font-weight: bolder;
+  color: rgb(85, 101, 222);
+  text-align: center;
+  padding: 30px;
+  border: 2px solid rgb(85, 101, 222);
+  background-color: #FFBD32;
+}
+
+td {
+  border: 2px solid rgb(85, 101, 222);
+  padding: 30px;
+  background-color: #fffaf5
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 0px
+}
+
+.main-images {
+  width: 30%
+}
+
+.main-images img {
+  width: 80%;
+  height: auto;
+  margin: 10px;
+  border: 6px solid #f7f5f5;
+  border-radius: 8px;
+}
+
+.page-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  padding: 20px;
+  gap: 20px;
+}
+
+.image-thread {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+}
+
+.image-thread img {
+  width: 160px;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+.image-thread img.banner-img {
+  width: 300px !important;
+  height: auto;
+  border-radius: 4px;
+  margin: 5px;
+}
+
+.imagecontainer {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 40px;
+}
+
+.artwork-container {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+}
+
+.text-block {
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.water,
+.sky,
+.eye {
+  width: 550px;
+  height: 550px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #000;
+}
+
+.gallery {
+  width: 550px;
+  height: auto;
+  margin-top: 40px;
+  margin: 10px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 6px solid #030303;
+}
+
+.mural {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-top: 40px;
+  margin: 20px;
+  display: block;
+  border-radius: 4px;
+  border: 6px solid #030303;
+}
+
+.coqui {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  margin-top: 40px;
+  margin: 20px;
+  display: block;
+  border-radius: 4px;
+  border: 6px solid #030303;
+}
+
+.about {
+  width: 550px;
+  height: auto;
+  margin-top: 80px;
+  margin: 10px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 6px solid #030303;
+}
+
+.insta {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 600%;
+  border: 4px solid #000000;
+}
+
+.insta :hover {
+  transform: scale(1.05);
+}
+
+.myart {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 600%;
+  border: 4px solid #000;
+  transition: transform 0.3s ease;
+}
+
+.myart:hover {
+  transform: scale(1.05);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+footer {
+  background-color: rgb(224, 195, 175);
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 4px solid #000;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: auto;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.link-block {
+  text-align: center;
+  max-width: 200px;
+}
+
+.link-block img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #000;
+  transition: transform 0.3s ease;
+}
+
+.link-block img:hover {
+  transform: scale(1.05);
+}
+
+.link-block h5,
+.link-block h6 {
+  margin-top: 15px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #333;
+}
