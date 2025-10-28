@@ -263,13 +263,12 @@ td {
 }
 
 .text-block {
-  /* text-align: center; */
-  /* display: flex;
+  text-align: center;
+  display: flex;
   flex-direction: column;
-  justify-content: center; */
+  justify-content: center;
   margin: auto;
   max-width: 1000px;
-  margin: 10px;
 }
 
 .water,
@@ -302,6 +301,11 @@ td {
 .centered-list ul {
   list-style-type: circle;
   margin-left: 50px;
+}
+
+.list-title {
+  list-style: none;
+  font-size: 40px;
 }
 
 .about {
