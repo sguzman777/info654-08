@@ -22,16 +22,21 @@ nav.crumbs ol {
 
 nav.crumbs .crumb a {
   text-decoration: none;
-  padding: 20px;
-  color: rgb(224, 195, 175);
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 35px;
+  border:  #000000 solid 2px;
+  background-color: rgb(224, 195, 175);
+  color: rgb(85, 101, 222);
   font-weight: bolder;
   font-family: Arial, sans-serif;
 }
 
 nav.crumbs .crumb a:hover {
-  background-color: rgb(224, 195, 175);
+  background-color: rgb(85, 101, 222);
+  border: #f9f8f8 solid 2px;
   width: 100%;
-  color: rgb(85, 101, 222);
+  color: rgb(224, 195, 175);
 }
 
 body {
